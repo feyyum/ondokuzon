@@ -5,7 +5,7 @@ import Transaction from "../../assets/Transaction.svg";
 
 function Sidebar() {
   return (
-    <div>
+    <div className={styles.container}>
       <div className={styles.top_container}>
         <div className={styles.logo}>finker.</div>
         <div className={styles.element_container}>
