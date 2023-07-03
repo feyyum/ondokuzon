@@ -3,12 +3,40 @@
 :root {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-
   color-scheme: light dark;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  --xxl: 1440px;
+  --xl: 1200px;
+  --lg: 992px;
+  --md: 768px;
+  --sm: 576px;
+
+  --purple: #5d3891;
+  --white: #ffffff;
+  --gray: #f7f7f8;
+  --dark-gray: #ababab;
+  --orange: #f99417;
+
+  --Thin: 100;
+  --ExtraLight: 200;
+  --Light: 300;
+  --Regular: 400;
+  --Medium: 500;
+  --SemiBold: 600;
+  --Bold: 700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
 }

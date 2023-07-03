@@ -1,5 +1,6 @@
 import styles from "./Sidebar.module.css";
 
+// SVG Imports
 import Transaction from "../../assets/Transaction.svg";
 
 function Sidebar() {
@@ -11,7 +12,7 @@ function Sidebar() {
           <div className={styles.element_header_container}>
             <img
               src={Transaction}
-              alt="Transaction ICO"
+              alt="Transaction Icon"
               className={styles.element_header_icon}
             />
             <h3 className={styles.element_header_text}>Transactions</h3>
