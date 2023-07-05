@@ -16,7 +16,7 @@
 }
 
 .placeholder {
-  font-weight: var(--Light);
+  font-weight: var(--Regular);
   font-size: 18px;
   color: var(--purple);
 }
@@ -46,8 +46,8 @@
   align-items: center;
   padding: 0px 24px;
   cursor: pointer;
-  font-weight: var(--Light);
-  font-size: 20px;
+  font-weight: var(--Regular);
+  font-size: 18px;
   color: var(--purple);
 }
 

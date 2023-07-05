@@ -1,6 +1,6 @@
 import styles from "./Dashboard.module.css";
 
-import Dropdown from "../UI/Dropdown/Dropdown";
+import { Dropdown, History, Stats } from "../";
 
 function Dashboard() {
   return (
@@ -8,6 +8,12 @@ function Dashboard() {
       <div className={styles.header}>
         <h1 className={styles.header_title}>Overview</h1>
         <Dropdown />
+      </div>
+      <div className={styles.stats}>
+        <Stats />
+      </div>
+      <div className={styles.history}>
+        <History />
       </div>
     </div>
   );

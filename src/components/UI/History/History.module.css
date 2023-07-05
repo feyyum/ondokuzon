@@ -1,0 +1,15 @@
+.container {
+  margin-bottom: 32px;
+}
+
+.header {
+  border-bottom: 1px solid var(--gray);
+  padding: 16px 10px;
+  margin-bottom: 8px;
+}
+
+.header_title {
+  font-weight: var(--Regular);
+  font-size: 20px;
+  color: var(--purple);
+}
